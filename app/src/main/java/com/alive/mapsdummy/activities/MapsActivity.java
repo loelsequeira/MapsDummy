@@ -94,12 +94,12 @@ public class MapsActivity extends AppCompatActivity
         );
         mGoogleMap.moveCamera(CameraUpdateFactory.newLatLng(curLoc));
         mGoogleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(latitude, longitude), 18.0f));
-        /*if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
                 && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             return;
         }
-        mGoogleMap.setMyLocationEnabled(true);*/
+        mGoogleMap.setMyLocationEnabled(true);
     }
 
     public void onMapSearch(View view) {

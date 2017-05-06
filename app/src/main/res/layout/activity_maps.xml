@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.alive.mapsdummy.activities.MapsActivity">
 
-<!--    <LinearLayout
+    <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,8 +31,8 @@
             android:text="Go" />
 
     </LinearLayout>
--->
-    <fragment
+
+<!--    <fragment
         android:id="@+id/place_autocomplete_fragment"
         android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
         android:layout_weight="1"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
-
+-->
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
@@ -49,7 +49,7 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/place_autocomplete_fragment" />
+        android:layout_below="@+id/linearLayout" />
 
     <Button
         android:layout_width="match_parent"
