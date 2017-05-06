@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Maps Dummy</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_more">More</string>
+    <string name="title_activity_info">Info Activity</string>
+    <string name="title_menu_developers">Pending</string>
+</resources>
